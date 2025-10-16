@@ -29,15 +29,45 @@ public class arrays {
     //     System.out.println("For each : " + name);
     // }
 
-    int numbers [] = {12,1,22,34,31,52,89,8};
-    int sum = 0;
-    for (int number: numbers){
-        sum+=number;
-    }
-    for (int i=0; i<numbers.length ;i++){
+    // int numbers [] = {12,1,22,34,31,52,89,8};
+    // int sum = 0;
+    // for (int number: numbers){
+    //     sum+=number;
+    // }
+    // for (int i=0; i<numbers.length ;i++){
         
-    }
-     System.out.println("the value is : " + sum);
+    // }
+    //  System.out.println("the value is : " + sum);
+
+
+    // 2D ARRAYS OR MATRIX
+    int marks [][] = {
+        {12,23,34},
+        {45,54,76},
+        {12,67,60},
+        {91,28,75}
+    };  // row-> roll no, column->subject number;
+    System.out.println(marks[0][2]);
+    System.out.println(marks[3][1]);
+
+        
+    // marks[0][0] = 56;
+    // marks[0][1] = 91;
+    // marks[0][2] = 72;
+
+    // marks[1][0] = 67;
+    // marks[1][1] = 90;
+    // marks[1][2] = 79;
+
+    // marks[2][0] = 56;
+    // marks[2][1] = 91;
+    // marks[2][2] = 72;
+
+    // marks[3][0] = 67;
+    // marks[3][1] = 90;
+    // marks[3][2] = 79;    
+
+
 
 }
 }
